@@ -15,8 +15,8 @@ const cookieJar = new CookieJar();
 // The main config object to stores the
 // base urls of the Grandeur Server
 const config = {
-    url: "https://localhost:8000",
-    node: "wss://localhost:8000"
+    url: "https://api.grandeur.tech",
+    node: "wss://api.grandeur.tech"
 }
 
 // Object will store the extensions which
