@@ -1,0 +1,31 @@
+{
+  "name": "grandeur-node",
+  "version": "1.0.0",
+  "description": "Grandeur SDK for Node. It can be utilized to integrate Grandeur features into nodejs applications.",
+  "main": "dist/grandeur.js",
+  "module": "./index.js",
+  "bugs": "https://github.com/grandeurtech/js-sdk/issues",
+  "repository": "grandeurtech/js-sdk",
+  "homepage": "https://grandeur.tech",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cloud",
+    "grandeurtech",
+    "IoT",
+    "serverless",
+    "backend",
+    "database"
+  ],
+  "author": "Grandeur Technologies <hi@grandeur.tech>",
+  "license": "MIT",
+  "dependencies": {
+    "createhmac-chaintor": "^1.0.0",
+    "fetch-cookie": "^0.11.0",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "ssl-root-cas": "^1.3.1",
+    "tough-cookie": "^4.0.0"
+  }
+}
